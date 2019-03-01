@@ -17,6 +17,7 @@ gem 'simple_form', '~> 4.1'
 gem 'devise', '~> 4.6', '>= 4.6.1'
 gem 'paperclip', '~> 6.1'
 gem 'acts_as_votable', '~> 0.12.0'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
