@@ -4,5 +4,8 @@
   %p
     = post.comments.count
     Comments
+  %P
+    = post.get_likes.size
+    Likes
 
   = link_to "Add New Art", new_post_path
