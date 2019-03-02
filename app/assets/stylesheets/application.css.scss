@@ -65,5 +65,43 @@ header {
   }
 }
 
+.form-body {
+  margin-left: 200px;
+  width: 50%;
+  text-align: center;
+  border: 1px solid #9B9B9B;
+  border-radius: .3rem;
+  display: inline-block;
+  padding: 10px;
+  label {
+    font-size: 1.25rem;
+    display: block;
+    margin-top: 10px;
+  }
+  input {
+    width: 50%;
+    border-radius: .3rem;
+    &:hover {
+      color: #50A7C7;
+      cursor: pointer;
+    }
+  }
+  a.cb {
+    text-decoration: none;
+    border: 1px solid #9B9B9B;
+    padding: 5px;
+    border-radius: .3rem;
+    color: red;
+  }
+  a.back {
+    text-decoration: none;
+    border: 1px solid #9B9B9B;
+    padding: 5px;
+    border-radius: .3rem;
+    color: #333233;
+    margin-top: .5rem;
+  }
+}
+
 @import 'home.css.scss';
 @import 'post.css.scss';
